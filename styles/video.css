@@ -57,6 +57,20 @@
           grid-template-columns: 1fr 1fr 1fr 1fr;}
       }
 
+      @media screen and (max-width: 374px){
+        .video-grid{
+          grid-template-columns: 1fr 1fr;
+        }
+  }
+       @media screen and (max-width: 487px){
+        .video-grid{
+          grid-template-columns: 1fr 1fr;
+        }
+  }
+  
+
+    
+
       .video-time{
         font-family: Roboto, Arial;
         padding: 4px;
